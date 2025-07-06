@@ -1,0 +1,33 @@
+.game{
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.status{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+}
+.box{
+  height: 100px;
+  width: 100px;
+  border: 2px solid gainsboro;
+  font-size: 36px;
+  cursor: pointer;
+  transition: backgroundcolor 0.3s ease-in-out;
+}
+.box:hover{
+  background-color: antiquewhite;
+}
+.reset{
+  background-color: chocolate;
+  font-size: 16px;
+}
